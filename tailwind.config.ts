@@ -4,6 +4,14 @@ module.exports = {
   content: ["./app/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily:{
+        titlefont: "titlefont",
+        selection : "selection"
+      },
+      colors:{
+        title: "#842A3B",
+        selection : "#63360c"
+      }
     },
   },
 };

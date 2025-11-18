@@ -1,2 +1,10 @@
 @import "tailwindcss";
 @config "../tailwind.config.ts";
+@font-face {
+    font-family: "titlefont" ;
+    src: url("/titlefont.otf") format("opentype");
+}
+@font-face {
+    font-family: "selection" ;
+    src: url("/selection.ttf") format("truetype");
+}

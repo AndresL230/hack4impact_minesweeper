@@ -15,5 +15,14 @@ const CellComponent = ({ prop }: { prop: CellProps }) => {
       flagModifier(cell.row, cell.col);
     }
   };
-  return <div className="bg-[url(/cell.jpg)]"></div>;
+  return (
+    <div className="bg-[url(/cell.jpg)] w-full h-full bg-cover bg-center bg-no-repeat flex justify-center items-center">
+      <button
+        className="w-full h-full"
+        onClick={cellClick}
+        onContextMenu={flagClick}
+      ></button>
+    </div>
+  );
 };
+export { CellComponent };
